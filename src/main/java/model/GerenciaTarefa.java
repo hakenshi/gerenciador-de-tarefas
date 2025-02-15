@@ -31,6 +31,7 @@ public class GerenciaTarefa {
     }
     
     public List<Tarefa> getTarefas(){
-        return this.tarefas;
+        if(!tarefas.isEmpty()) return this.tarefas;
+        return new ArrayList<Tarefa>();
     }
 }
