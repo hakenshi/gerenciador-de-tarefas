@@ -5,32 +5,36 @@
 package model;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
 
 /**
  *
  * @author lonely
  */
 public class GerenciaTarefa {
-    private List<Tarefa> tarefas = new ArrayList<Tarefa>();
+    private Collection<Tarefa> tarefas = new ArrayList<Tarefa>();
     
     public boolean addTarefa(Tarefa tarefa){
-        if(tarefas.contains(tarefa)){
-            return false;
-        }
+        
+        if(tarefa == null) return false;
+        
+        if(tarefas.contains(tarefa)) return false;
+     
         
         return tarefas.add(tarefa);
     }
     
     public boolean removeTarefa(Tarefa tarefa){
-        if(!tarefas.contains(tarefa)){
-            return false;
-        }
+        
+        if(tarefa == null) return false;
+        
+        if(!tarefas.contains(tarefa)) return false;
+        
         
         return tarefas.remove(tarefa);
     }
     
-    public List<Tarefa> getTarefas(){
+    public Collection<Tarefa> getTarefas(){
         return this.tarefas;
     }
 }

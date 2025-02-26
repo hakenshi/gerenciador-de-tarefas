@@ -1,1 +1,7 @@
-/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/com/mycompany/gerenciadordetarefas/GerenciadorDeTarefas.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/model/GerenciaTarefa.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/model/Prioritizavel.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/model/Tarefa.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/model/TarefaComPrazo.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/model/TarefaSimples.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/view/InitialScreen.java
+/home/lonely/NetBeansProjects/GerenciadorDeTarefas/src/main/java/view/NovaTarefa.java
