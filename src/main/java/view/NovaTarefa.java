@@ -84,8 +84,8 @@ public class NovaTarefa extends javax.swing.JPanel {
 
         jLabel3.setText("Prioridade:");
 
-        prioridade.setModel(prioridade.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "1", "2", "3", "4", "5" }));
-        );
+        prioridade.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "1", "2", "3", "4", "5" }));
+
         prioridade.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 prioridadeActionPerformed(evt);
