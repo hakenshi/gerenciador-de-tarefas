@@ -1,0 +1,15 @@
+views\TelaInicial$2.class
+views\CadastrarTarefa$3.class
+views\CadastrarTarefa$2.class
+views\CadastrarTarefa$1.class
+models\Tarefa.class
+views\TelaInicial$1.class
+views\CadastrarTarefa$6.class
+models\GerenciaTarefas.class
+views\CadastrarTarefa.class
+controllers\TarefaController.class
+models\TarefaComPrazo.class
+views\CadastrarTarefa$5.class
+views\TelaInicial.class
+models\TarefaSimples.class
+views\CadastrarTarefa$4.class
